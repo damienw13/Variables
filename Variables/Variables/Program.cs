@@ -11,32 +11,26 @@ namespace Variables
         static void Main(string[] args)
 
         {
-            /*
-            int x;
-            int y;
+            //Variables - Assigning Names 
 
-            x = 7;
-            y = x + 3;
-
-            Console.WriteLine(y);
-            Console.ReadLine();
-            */
-
-            Console.WriteLine("What Is Your Name?");
-            Console.Write("Type your first name: ");
+            Console.WriteLine("What is your name?");
+            Console.Write("Type Your First Name: ");
             string myFirstName = Console.ReadLine();
 
 
+
             //string myLastName;
-            //Console.Write("Type your last name: ");
+            //Console.Write("Type Your Last Name: ");
             //myLastName = Console.ReadLine();
 
-            Console.WriteLine("Type your last name: ");
+
+            Console.Write("Type Your Last Name: ");
             string myLastName = Console.ReadLine();
 
-
-            Console.WriteLine("Hello, " + myFirstName + " " + myLastName);
+            Console.WriteLine("Hello, " + myFirstName + " " + myLastName + " ");
             Console.ReadLine();
+            
+            
 
 
         }
